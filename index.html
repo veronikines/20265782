@@ -1,0 +1,108 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>LOQUEPINT3D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="inicio">
+        <h1>LOQUEPINT3D</h1>
+        <p>Impresiones 3D personalizadas</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#reseñas">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="productos" id="productos">
+            <h2>Productos</h2>
+
+            <div class="contenedor-productos">
+
+                <article class="producto">
+                    <img src="img/llavero.jpeg" alt="Llavero personalizado">
+                    <h3>Llavero personalizado</h3>
+                    <p>Llavero impreso en 3D.</p>
+                    <p>$3.000</p>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </article>
+
+                <article class="producto">
+                    <img src="img/macetaface.jpeg" alt="Maceta decorativa con forma de cara">
+                    <h3>Maceta decorativa</h3>
+                    <p>Maceta impresa en 3D para decorar tus espacios.</p>
+                    <p>$10.000</p>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </article>
+
+                <article class="producto">
+                    <img src="img/figura.jpeg" alt="Figura personalizada impresa en 3D">
+                    <h3>Figura personalizada</h3>
+                    <p>Figura impresa en 3D diseñada especialmente para vos.</p>
+                    <p>$12.000</p>
+                    <button class="agregar-carrito">Agregar al carrito</button>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="reseñas" id="reseñas">
+            <h2>Reseñas</h2>
+
+            <div class="contenedor-reseñas">
+
+                <article class="reseña">
+                    <h3>María</h3>
+                    <p>¡Me encantó el llavero! Quedó hermoso y tal como lo pedí.</p>
+                </article>
+
+                <article class="reseña">
+                    <h3>Lucas</h3>
+                    <p>Excelente trabajo. La maceta quedó preciosa.</p>
+                </article>
+
+                <article class="reseña">
+                    <h3>Julieta</h3>
+                    <p>Muy buena atención y el producto quedó increíble.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <h2>Contacto</h2>
+
+            <form action="https://formspree.io/f/xbgdzplo" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>LOQUEPINT3D - Impresiones 3D personalizadas</p>
+    </footer>
+
+</body>
+</html>
+```
